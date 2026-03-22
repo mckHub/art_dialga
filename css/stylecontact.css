@@ -1,0 +1,86 @@
+
+  
+   
+.custom-container{
+  margin-top: 30px;
+  padding: 0px auto;
+  background-color:rgb(245, 240, 240);
+  border-radius: 20px;
+  min-height: 600px;
+  
+}
+#modali{
+  
+  position: static;
+  margin-right: 30px;
+  margin-top: 350px;
+}
+.customnumber{
+  margin-top: 30px;
+}
+#formm {
+  
+  margin: 35px auto;
+  
+  position: relative;
+  border-radius: 8px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Custom Scrollbar Styles for WebKit Browsers */
+.custom-scrollbar {
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #34db53 #ecf0f1; /* For Firefox */
+
+  /* For WebKit Browsers (Chrome, Safari) */
+  &::-webkit-scrollbar {
+      width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+      background-color: #ecf0f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background-color: #3498db;
+      border-radius: 6px;
+      border: 3px solid #ecf0f1;
+  }
+}
