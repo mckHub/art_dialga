@@ -8,4 +8,4 @@ A dynamic website built with **PHP** and **MySQL**, featuring database-driven co
 
 **Live Demo:** http://artdialga.whf.bz
 
-**GitHub:** https://github.com/malick-dialga/art_dialga
+**GitHub:** https://github.com/mckHub/art_dialga
